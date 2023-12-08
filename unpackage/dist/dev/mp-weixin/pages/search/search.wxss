@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+#page {
+  background-color: #ee7b2d;
+  height: 100vh;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search .uni-mt-10 {
+  width: 80%;
+}
+.search .text {
+  margin: 0 30rpx;
+  color: white;
+  font-size: 30rpx;
+}
+.recommend {
+  width: 100%;
+  background-color: white;
+  padding: 20rpx 30rpx 0;
+  box-sizing: border-box;
+}
+.recommend > .title {
+  display: flex;
+  align-items: center;
+  margin-left: 10rpx;
+}
+.recommend > .title image {
+  margin-left: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.recommend .content {
+  width: 100%;
+  height: 340rpx;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20rpx 0 0;
+  flex-direction: row;
+}
+.recommend .content .item {
+  box-sizing: border-box;
+  margin: 0 10rpx;
+  flex-shrink: 0;
+  width: 43%;
+  background-color: #eee;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.recommend .content .item image {
+  border-radius: 10rpx;
+  width: 100%;
+  height: 230rpx;
+}
+.recommend .content .item .title {
+  color: #333;
+  margin-top: 10rpx;
+  font-size: 26rpx;
+  padding-left: 10rpx;
+}
+.recommend .content .item .bottom {
+  font-size: 20rpx;
+  color: #ccc;
+  display: flex;
+  padding-left: 10rpx;
+}
+.recommend .content .item .bottom .left,
+.recommend .content .item .bottom .right {
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.recommend .content .item .bottom .left text,
+.recommend .content .item .bottom .right text {
+  margin-right: 10rpx;
+}
+.recommend .content .item .bottom .left {
+  margin-right: 64rpx;
+}
+.searchMenu {
+  width: 100%;
+  background-color: white;
+  padding: 40rpx;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  height: calc(100vh - 535rpx);
+}
+.searchMenu .item {
+  display: flex;
+  width: 100%;
+  margin: 20rpx 0;
+}
+.searchMenu .item > image {
+  width: 45%;
+  height: 200rpx;
+  flex-shrink: 0;
+  border-radius: 20rpx;
+}
+.rightBox {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightBox .title {
+  font-size: 30rpx;
+}
+.rightBox .center {
+  font-size: 20rpx;
+  color: #999;
+  /* 多余文本用...代替 */
+  /* 溢出隐藏 */
+  overflow: hidden;
+  /* 设置伸缩盒子 */
+  display: -webkit-box;
+  /* 设置子元素的对齐方式 */
+  -webkit-box-orient: vertical;
+  /* 设置显示想行数 */
+  -webkit-line-clamp: 1;
+}
+.rightBox .bottom {
+  font-size: 20rpx;
+  color: #ccc;
+  display: flex;
+  padding-left: 10rpx;
+}
+.rightBox .bottom .left,
+.rightBox .bottom .right {
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.rightBox .bottom .left text,
+.rightBox .bottom .right text {
+  margin-right: 10rpx;
+}
+.rightBox .bottom .left {
+  margin-right: 64rpx;
+}
+

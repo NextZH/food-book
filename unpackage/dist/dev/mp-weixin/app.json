@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/VIP/VIP",
+    "pages/category/category",
+    "pages/search/search",
+    "pages/myVIP/myVIP",
+    "pages/detail/detail",
+    "pages/success/success"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "食谱大全",
+    "navigationBarBackgroundColor": "#ee7b2d",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ee7b2d",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/VIP/VIP",
+        "iconPath": "static/tabBar/vip.png",
+        "selectedIconPath": "static/tabBar/vip-fill.png",
+        "text": "VIP会员"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabBar/bussiness-man.png",
+        "selectedIconPath": "static/tabBar/bussiness-man-fill.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
